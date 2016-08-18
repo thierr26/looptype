@@ -1,0 +1,31 @@
+GENERAL INFORMATION
+-------------------
+
+This repository contains a Windows batch script (looptype.bat) that can be
+used to output the content of text files repeatedly.  This is useful to
+monitor short text files.
+
+Please read the documentations below for more details.
+
+DOCUMENTATION FOR SCRIPT looptype.bat
+-------------------------------------
+
+Usage
+
+    looptype [/t seconds] file1 [file2 ...]
+
+    looptype /?
+
+Description
+
+    Print to the command line each file provided as argument every 3
+    seconds.  Another period can be specified in seconds using the /t
+    option.  Use Ctrl-C to stop.
+
+    When invoked with "/?" as first argument, print the present
+    documentation to the command line.
+
+==============================================================================
+Author: Thierry Rascle (thierr26@free.fr)
+
+MIT license. Please refer to the LICENSE file.
